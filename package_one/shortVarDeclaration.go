@@ -12,5 +12,5 @@ func shortHandType() string {
 func main() {
 	statement := shortHandType()
 	fmt.Println(statement)
-	fmt.Printf("Type of statement is: %T", statement )
+	fmt.Printf("Type of statement is: %T", statement)
 }

@@ -1,6 +1,6 @@
 package main
-import "fmt"
 
+import "fmt"
 
 func testFunction(x, y int) int {
 	fmt.Println("Function in the same file")

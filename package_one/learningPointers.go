@@ -10,7 +10,7 @@ func main() {
 	fmt.Printf("Value stored at memory x: %v\n", *a)
 	*a = 200
 	fmt.Printf("New value of x: %v\n", x)
-	*a = *a*2
+	*a = *a * 2
 	fmt.Printf("New value of x after multiplying by 2: %v\n", x)
 	a = &y
 	fmt.Printf("A is now pointing to y: %v\n", *a)
